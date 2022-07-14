@@ -1,5 +1,5 @@
 const fs = require('fs');
-const stream = fs.createWriteStream('int-ternary.js');
+const stream = fs.createWriteStream('new-int-ternary.js');
 
 stream.write('function getValue(i){' + '\n');
 

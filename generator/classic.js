@@ -1,5 +1,5 @@
 const fs = require('fs');
-const stream = fs.createWriteStream('int-classic.js');
+const stream = fs.createWriteStream('new-int-classic.js');
 
 stream.write('function getValue(i){' + '\n');
 stream.write(`if(i == 1){console.log("Your number is ${i}")}` + '\n');
