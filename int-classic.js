@@ -1,6 +1,5 @@
 function getValue(i){
-if(i == 1){console.log("Your number is undefined")}
-else if(i == 0){console.log("Your number is 0")}
+if(i == 0){console.log("Your number is 0")}
 else if(i == 1){console.log("Your number is 1")}
 else if(i == 2){console.log("Your number is 2")}
 else if(i == 3){console.log("Your number is 3")}
@@ -1686,5 +1685,6 @@ else if(i == 1682){console.log("Your number is 1682")}
 else if(i == 1683){console.log("Your number is 1683")}
 else if(i == 1684){console.log("Your number is 1684")}
 else if(i == 1685){console.log("Your number is 1685")}
+else if(i == 1686){console.log("Your number is 1686")}
 else{console.log("Your number is not supported")}}
 module.exports = { getValue }
