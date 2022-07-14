@@ -19,11 +19,11 @@ int.getValue(100);
 ### Create another file:
 
 ```console
-node generator/int-ternary.js
+node generator/ternary.js
 ```
 
 #### or
 
 ```console
-node generator/int-classic.js
+node generator/classic.js
 ```
